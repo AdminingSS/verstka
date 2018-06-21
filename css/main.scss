@@ -1,0 +1,72 @@
+@import "variables";
+
+.bg-cover {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.inside-zone {
+  font-family: $museo;
+  font-size: $fontSizeMain;
+  color: $textPrimaryColor;
+  overflow-y: auto;
+}
+
+.inside-zone__welcome {
+  font-weight: 700;
+
+  span {
+    font-weight: 900;
+    background-image: linear-gradient(to top, #ff9a0a, #ff9a0a), linear-gradient(#f6be47, #f6be47);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0px -4px 0 rgba(255, 255, 255, 0.2);
+  }
+}
+
+.inside-zone__main {
+  background: url("../images/bg_grey_line.png") no-repeat center 0, url("../images/bg_circle_lines.png") no-repeat center 0;
+  height: 246px;
+
+  .ball_sm {
+    width: 96px;
+    height: 96px;
+    //width: 109px;
+    //height: 184px;
+    padding: 0;
+    margin: 0;
+  }
+  .ball_lg {
+    width: 170px;
+    height: 170px;
+    padding: 0;
+    margin: 0;
+  }
+}
+
+.inside-zone__history-balance {
+  background: url("../images/bg_grey_line.png") no-repeat center 0;
+  font-size: $fontSizeSmall;
+  font-weight: 700;
+  color: $textTertiaryColor;
+}
+
+.inside-zone__history-bets {
+  background: url("../images/bg_grey_line.png") no-repeat center 0;
+  font-size: $fontSizeSmall;
+  font-weight: 700;
+  color: $textTertiaryColor;
+}
+
+.inside-zone__table {
+  font-size: $fontSizeTable;
+  font-weight: 300;
+  color: $textTertiaryColor;
+
+  .thead-light th {
+    font-size: $fontSizeTiny;
+    font-weight: 700;
+  }
+}

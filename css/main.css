@@ -1,3 +1,81 @@
+@font-face {
+  font-family: 'Museo Sans Cyrl';
+  src: url(../fonts/MuseoSansCyrl-100.woff2) format("woff2"), url(../fonts/MuseoSansCyrl-100.woff) format("woff");
+  font-weight: 100;
+  font-style: normal; }
+@font-face {
+  font-family: 'Museo Sans Cyrl';
+  src: url(../fonts/MuseoSansCyrl-300.woff2) format("woff2"), url(../fonts/MuseoSansCyrl-300.woff) format("woff");
+  font-weight: 300;
+  font-style: normal; }
+@font-face {
+  font-family: 'Museo Sans Cyrl';
+  src: url(../fonts/MuseoSansCyrl-500.woff2) format("woff2"), url(../fonts/MuseoSansCyrl-500.woff) format("woff");
+  font-weight: 500;
+  font-style: normal; }
+@font-face {
+  font-family: 'Museo Sans Cyrl';
+  src: url(../fonts/MuseoSansCyrl-700.woff2) format("woff2"), url(../fonts/MuseoSansCyrl-700.woff) format("woff");
+  font-weight: 700;
+  font-style: normal; }
+@font-face {
+  font-family: 'Museo Sans Cyrl';
+  src: url(../fonts/MuseoSansCyrl-900.woff2) format("woff2"), url(../fonts/MuseoSansCyrl-900.woff) format("woff");
+  font-weight: 900;
+  font-style: normal; }
+.bg-cover {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
 
+.inside-zone {
+  font-family: "Museo Sans Cyrl", sans-serif;
+  font-size: 16px;
+  color: #9aa9bd;
+  overflow-y: auto; }
+
+.inside-zone__welcome {
+  font-weight: 700; }
+  .inside-zone__welcome span {
+    font-weight: 900;
+    background-image: linear-gradient(to top, #ff9a0a, #ff9a0a), linear-gradient(#f6be47, #f6be47);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0px -4px 0 rgba(255, 255, 255, 0.2); }
+
+.inside-zone__main {
+  background: url("../images/bg_grey_line.png") no-repeat center 0, url("../images/bg_circle_lines.png") no-repeat center 0;
+  height: 246px; }
+  .inside-zone__main .ball_sm {
+    width: 96px;
+    height: 96px;
+    padding: 0;
+    margin: 0; }
+  .inside-zone__main .ball_lg {
+    width: 170px;
+    height: 170px;
+    padding: 0;
+    margin: 0; }
+
+.inside-zone__history-balance {
+  background: url("../images/bg_grey_line.png") no-repeat center 0;
+  font-size: 14px;
+  font-weight: 700;
+  color: #251f21; }
+
+.inside-zone__history-bets {
+  background: url("../images/bg_grey_line.png") no-repeat center 0;
+  font-size: 14px;
+  font-weight: 700;
+  color: #251f21; }
+
+.inside-zone__table {
+  font-size: 13px;
+  font-weight: 300;
+  color: #251f21; }
+  .inside-zone__table .thead-light th {
+    font-size: 12px;
+    font-weight: 700; }
 
 /*# sourceMappingURL=main.css.map */
