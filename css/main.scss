@@ -18,6 +18,9 @@
   font-weight: 300;
   color: $textPrimaryColor;
   overflow-y: auto;
+  //background: #f8fafe;
+  //border: 1px solid #8bbe29;
+  //border-radius: 10px;
 
   h1 {
     font-size: $fontSizeSmall;
@@ -135,4 +138,16 @@
   .col-2 {
     max-width: 55px;
   }
+}
+
+.inside-zone__top {
+  height: 150px;
+}
+
+.inside-zone__middle {
+  height: 400px;
+}
+
+.inside-zone__bottom {
+  height: 150px;
 }

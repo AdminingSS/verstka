@@ -119,4 +119,13 @@
   .inside-zone__auth-problem-block .col-2 {
     max-width: 55px; }
 
+.inside-zone__top {
+  height: 150px; }
+
+.inside-zone__middle {
+  height: 400px; }
+
+.inside-zone__bottom {
+  height: 150px; }
+
 /*# sourceMappingURL=main.css.map */
