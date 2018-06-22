@@ -6,21 +6,45 @@
   background-size: cover;
 }
 
+.bg-grey-line {
+  background: url("../images/bg_grey_line.png") no-repeat center 0;
+  -webkit-background-size: 100% auto;
+  background-size: 100% auto;
+}
+
 .inside-zone {
   font-family: $museo;
-  font-size: $fontSizeMain;
+  font-size: $fontSizeSmall;
+  font-weight: 300;
   color: $textPrimaryColor;
   overflow-y: auto;
+
+  h1 {
+    font-size: $fontSizeSmall;
+    font-weight: 700;
+    color: $textTertiaryColor;
+  }
+  h2 {
+    font-size: $fontSizeMain;
+    font-weight: 700;
+    color: $textTertiaryColor;
+  }
+
+  .hr-grey-line-2 {
+    height: 2px;
+    background-color: #cad3de;
+  }
 }
 
 .inside-zone__welcome {
-  font-weight: 700;
-
+  h2 {
+    color: $textPrimaryColor;
+  }
   span {
     font-weight: 900;
-    background-image: linear-gradient(to top, #ff9a0a, #ff9a0a), linear-gradient(#f6be47, #f6be47);
+    color: #ff9a0a;
+    background: -webkit-linear-gradient(#ff9a0a, #f6be47);
     -webkit-background-clip: text;
-    background-clip: text;
     -webkit-text-fill-color: transparent;
     text-shadow: 0px -4px 0 rgba(255, 255, 255, 0.2);
   }
@@ -28,7 +52,10 @@
 
 .inside-zone__main {
   background: url("../images/bg_grey_line.png") no-repeat center 0, url("../images/bg_circle_lines.png") no-repeat center 0;
+  -webkit-background-size: 100% auto;
+  background-size: 100% auto;
   height: 246px;
+  min-width: 768px;
 
   .ball_sm {
     width: 96px;
@@ -46,27 +73,66 @@
   }
 }
 
-.inside-zone__history-balance {
-  background: url("../images/bg_grey_line.png") no-repeat center 0;
-  font-size: $fontSizeSmall;
-  font-weight: 700;
-  color: $textTertiaryColor;
-}
-
-.inside-zone__history-bets {
-  background: url("../images/bg_grey_line.png") no-repeat center 0;
-  font-size: $fontSizeSmall;
-  font-weight: 700;
-  color: $textTertiaryColor;
-}
-
 .inside-zone__table {
   font-size: $fontSizeTable;
-  font-weight: 300;
   color: $textTertiaryColor;
 
-  .thead-light th {
-    font-size: $fontSizeTiny;
+  .thead-light {
+
+    background: url("../images/bg_grey_line.png") no-repeat center 0, #e9edf2;
+    -webkit-background-size: 100% auto;
+    background-size: 100% auto;
+
+    th {
+      font-size: $fontSizeTiny;
+      font-weight: 700;
+      background-color: transparent !important;
+    }
+  }
+}
+
+.inside-zone__help-main {
+  color: $textTertiaryColor;
+  min-width: 768px;
+}
+
+.inside-zone__help-warning {
+  border: dashed 1px #7d7d7d;
+  color: $textTertiaryColor;
+
+  a {
+    color: #766ac1;
+  }
+}
+
+.inside-zone__auth-problem-link {
+  a {
+    color: $textPrimaryColor;
     font-weight: 700;
+  }
+}
+
+.inside-zone__auth-problem-block {
+
+  font-size: $fontSizeTiny;
+  color: $textTertiaryColor;
+  font-weight: 500;
+
+  h1 {
+    font-weight: 500;
+  }
+
+  .bg-gray-rounded {
+    background: url("../images/bg_gray_rounded.png") no-repeat 10px center;
+    -webkit-background-size: 95% 40px;
+    background-size: 95% 40px;
+
+    div {
+      height: 45px;
+    }
+  }
+
+  .col-2 {
+    max-width: 55px;
   }
 }
