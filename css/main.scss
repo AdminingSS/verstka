@@ -32,6 +32,11 @@
     font-weight: 700;
     color: $textTertiaryColor;
   }
+  h3 {
+    font-size: $fontSizeBig;
+    font-weight: 500;
+    color: $textTertiaryColor;
+  }
 
   .hr-grey-line-2 {
     height: 2px;
@@ -141,7 +146,29 @@
 }
 
 .inside-zone__top {
-  height: 150px;
+  min-width: 768px;
+  height: 160px;
+  background: url("../images/icon_pad.png") no-repeat 0 41px , url("../images/ramka.png") no-repeat 0 center / auto 100%;
+  //-webkit-background-size: 54px 160px;
+  //background-size: auto cover;
+  font-size: $fontSizeTiny;
+
+  a {
+    display: block;
+    width: 150px;
+    height: 42px;
+    border: solid 2px #a4cc2c;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 21px;
+    font-size: $fontSizeSmall;
+    color: $textTertiaryColor;
+
+    &:hover, &focus {
+      text-decoration: none;
+      color: $textTertiaryColor;
+    }
+  }
 }
 
 .inside-zone__middle {
@@ -149,5 +176,5 @@
 }
 
 .inside-zone__bottom {
-  height: 150px;
+  height: 160px;
 }

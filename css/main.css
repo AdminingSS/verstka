@@ -47,6 +47,10 @@
     font-size: 16px;
     font-weight: 700;
     color: #251f21; }
+  .inside-zone h3 {
+    font-size: 18px;
+    font-weight: 500;
+    color: #251f21; }
   .inside-zone .hr-grey-line-2 {
     height: 2px;
     background-color: #cad3de; }
@@ -120,12 +124,28 @@
     max-width: 55px; }
 
 .inside-zone__top {
-  height: 150px; }
+  min-width: 768px;
+  height: 160px;
+  background: url("../images/icon_pad.png") no-repeat 0 41px, url("../images/ramka.png") no-repeat 0 center/auto 100%;
+  font-size: 12px; }
+  .inside-zone__top a {
+    display: block;
+    width: 150px;
+    height: 42px;
+    border: solid 2px #a4cc2c;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 21px;
+    font-size: 14px;
+    color: #251f21; }
+    .inside-zone__top a:hover, .inside-zone__top afocus {
+      text-decoration: none;
+      color: #251f21; }
 
 .inside-zone__middle {
   height: 400px; }
 
 .inside-zone__bottom {
-  height: 150px; }
+  height: 160px; }
 
 /*# sourceMappingURL=main.css.map */
