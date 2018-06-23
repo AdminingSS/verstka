@@ -1,5 +1,6 @@
 # Created by .ignore support plugin (hsz.mobi)
 
-/.idea
+/.idea/
 /css/bootstrap.min.css
 
+_aux/.DS_Store
