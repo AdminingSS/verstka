@@ -150,7 +150,7 @@
   max-width: 55px; }
 
 .inside-zone__top {
-  background: url("../images/gamepad.png") no-repeat -4px center/auto 100% #fff;
+  background: url("../images/gamepad.png") no-repeat -4px center/auto 100% #f8fafe;
   font-size: 12px; }
   .inside-zone__top .btn-games {
     width: 100%;
