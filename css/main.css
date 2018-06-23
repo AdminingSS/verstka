@@ -184,6 +184,18 @@
       .inside-zone__top .btn-games:hover::before, .inside-zone__top .btn-games:focus::before {
         background: linear-gradient(to left, #56a124, #a4cc2c); }
 
+.inside-zone__middle .btn-game-big {
+  background-image: linear-gradient(to left, #986cd1, #627ad1);
+  width: 236px;
+  height: 64px;
+  -webkit-border-radius: 500px;
+  -moz-border-radius: 500px;
+  border-radius: 500px;
+  font-size: 19.5px;
+  color: #ffffff;
+  box-shadow: 0 10px 15px rgba(152, 108, 209, 0.3);
+  line-height: 48px; }
+
 .b-content__top {
   padding: 30px 0; }
 
