@@ -173,37 +173,43 @@
 
   font-size: $fontSizeTiny;
 
-  a div{
+  .btn-primary {
     width: 150px;
     height: 42px;
-    //border: 2px solid #a4cc2c;
-    line-height: 40px;
+    border: 2px solid #a4cc2c;
+    //line-height: 40px;
 
 
-    border-radius: 21px;
+    border-radius: 500px;
     font-size: $fontSizeSmall;
     color: $textTertiaryColor;
-    background: #fff;
+    background: #ffffff;
 
     position: relative;
     z-index: 2;
 
     &::before{
-      top: -2px;
-      left: -2px;
-      content: '';
-      width: 154px;
-      height: 46px;
-      background: linear-gradient(to left, #56a124, #a4cc2c);
       position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      content: '';
+      background: transparent;
+
       z-index: 1;
-      border-radius: 21px;
+      border-radius: 500px;
+
+      &:hover, &:focus {
+        background: linear-gradient(to left, #56a124, #a4cc2c);
+      }
+
     }
 
     &:hover, &:focus {
-      text-decoration: none;
       color: $textSecondaryColor;
       background: linear-gradient(to left, #56a124, #a4cc2c);
+      border-color: transparent;
     }
   }
 }
