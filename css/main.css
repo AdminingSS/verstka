@@ -154,30 +154,32 @@
   height: 160px;
   background: url("../images/icon_pad.png") no-repeat 2px 49px, url("../images/ramka.png") no-repeat 0 center/auto 100%;
   font-size: 12px; }
-  .inside-zone__top a div {
+  .inside-zone__top .btn-primary {
     width: 150px;
     height: 42px;
-    line-height: 40px;
-    border-radius: 21px;
+    border: 2px solid #a4cc2c;
+    border-radius: 500px;
     font-size: 14px;
     color: #251f21;
-    background: #fff;
+    background: #ffffff;
     position: relative;
     z-index: 2; }
-    .inside-zone__top a div::before {
-      top: -2px;
-      left: -2px;
-      content: '';
-      width: 154px;
-      height: 46px;
-      background: linear-gradient(to left, #56a124, #a4cc2c);
+    .inside-zone__top .btn-primary::before {
       position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      content: '';
+      background: transparent;
       z-index: 1;
-      border-radius: 21px; }
-    .inside-zone__top a div:hover, .inside-zone__top a div:focus {
-      text-decoration: none;
+      border-radius: 500px; }
+      .inside-zone__top .btn-primary::before:hover, .inside-zone__top .btn-primary::before:focus {
+        background: linear-gradient(to left, #56a124, #a4cc2c); }
+    .inside-zone__top .btn-primary:hover, .inside-zone__top .btn-primary:focus {
       color: #ffffff;
-      background: linear-gradient(to left, #56a124, #a4cc2c); }
+      background: linear-gradient(to left, #56a124, #a4cc2c);
+      border-color: transparent; }
 
 .inside-zone__middle {
   height: 400px; }
