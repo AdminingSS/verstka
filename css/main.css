@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @font-face {
   font-family: 'Museo Sans Cyrl';
   src: url(../fonts/MuseoSansCyrl-100.woff2) format("woff2"), url(../fonts/MuseoSansCyrl-100.woff) format("woff");
@@ -23,6 +24,15 @@
   src: url(../fonts/MuseoSansCyrl-900.woff2) format("woff2"), url(../fonts/MuseoSansCyrl-900.woff) format("woff");
   font-weight: 900;
   font-style: normal; }
+.╨Я╤А╤П╨╝╨╛╤Г╨│╨╛╨╗╤М╨╜╨╕╨║__╤Б╨║╤А╤Г╨│╨╗__╤Г╨│╨╗╤Л_523 {
+  background-color: #e3ebf6;
+  position: absolute;
+  left: 498px;
+  top: 769px;
+  width: 556px;
+  height: 40px;
+  z-index: 68; }
+
 .bg-cover {
   background-repeat: no-repeat;
   background-position: center;
@@ -51,13 +61,11 @@
   .inside-zone *, .inside-zone ::after, .inside-zone ::before {
     box-sizing: border-box; }
   .inside-zone h1 {
-    margin-bottom: 20px;
     font-size: 16px;
     font-weight: 700;
     color: #282828;
     text-transform: uppercase; }
   .inside-zone h2 {
-    margin-bottom: 10px;
     font-size: 14px;
     font-weight: 700;
     color: #251f21;
@@ -126,14 +134,15 @@
   font-size: 12px;
   color: #251f21;
   font-weight: 500; }
-  .inside-zone__auth-problem-block h1 {
-    font-weight: 500; }
+  .inside-zone__auth-problem-block h2 {
+    font-weight: 500;
+    text-transform: none; }
   .inside-zone__auth-problem-block .bg-gray-rounded {
-    background: url("../images/bg_gray_rounded.png") no-repeat 10px center;
-    -webkit-background-size: 95% 40px;
-    background-size: 95% 40px; }
-    .inside-zone__auth-problem-block .bg-gray-rounded div {
-      height: 45px; }
+    height: 40px;
+    background-color: #e3ebf6;
+    border-radius: 500px; }
+    .inside-zone__auth-problem-block .bg-gray-rounded h2 {
+      line-height: 40px; }
   .inside-zone__auth-problem-block .col-2 {
     max-width: 55px; }
 
@@ -167,5 +176,9 @@
 
 .border-bottom-grey {
   border-bottom: 2px solid #cad3de; }
+
+.img-plus {
+  margin-top: -3px;
+  margin-left: -9px; }
 
 /*# sourceMappingURL=main.css.map */

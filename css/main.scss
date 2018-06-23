@@ -35,14 +35,12 @@
   }
 
   h1 {
-    margin-bottom: 20px;
     font-size: $fontSizeMain;
     font-weight: 700;
     color: #282828;
     text-transform: uppercase;
   }
   h2 {
-    margin-bottom: 10px;
     font-size: $fontSizeSmall;
     font-weight: 700;
     color: $textTertiaryColor;
@@ -141,17 +139,18 @@
   color: $textTertiaryColor;
   font-weight: 500;
 
-  h1 {
+  h2 {
     font-weight: 500;
+    text-transform: none;
   }
 
   .bg-gray-rounded {
-    background: url("../images/bg_gray_rounded.png") no-repeat 10px center;
-    -webkit-background-size: 95% 40px;
-    background-size: 95% 40px;
+    height: 40px;
+    background-color: #e3ebf6;
+    border-radius: 500px;
 
-    div {
-      height: 45px;
+    h2 {
+      line-height: 40px;
     }
   }
 
@@ -200,6 +199,11 @@
 
 .border-bottom-grey {
   border-bottom: 2px solid #cad3de;
+}
+
+.img-plus {
+  margin-top: -3px;
+  margin-left: -9px;
 }
 
 
