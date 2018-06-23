@@ -55,6 +55,10 @@
   * + p {
     margin-top: 20px;
   }
+
+  .third-color {
+    color: $textTertiaryColor;
+  }
 }
 
 .inside-zone__welcome {
@@ -167,6 +171,8 @@
 }
 
 .inside-zone__top {
+
+  min-height: 140px;
   background: url("../images/gamepad.png") no-repeat -4px center / auto 100% #f8fafe;
 
   font-size: $fontSizeTiny;
@@ -207,6 +213,7 @@
       color: $textSecondaryColor;
       background: linear-gradient(to left, #56a124, #a4cc2c);
       border-color: transparent;
+      box-shadow: 0 5px 10px rgba(86, 161, 36, 0.5);
 
       &::before {
         background: linear-gradient(to left, #56a124, #a4cc2c);
@@ -216,6 +223,7 @@
 }
 
 .inside-zone__middle {
+  min-height: 370px;
 
   .btn-game-big {
     background-image: linear-gradient(to left, #986cd1, #627ad1);
@@ -228,11 +236,97 @@
     color: $textSecondaryColor;
     box-shadow: 0 10px 15px rgba(152, 108, 209, 0.3);
     line-height: 48px;
+    margin: 10px 0;
+  }
+
+  .iz-input-control {
+    width: 214px;
+    margin: 10px 0;
+  }
+
+  .iz-input {
+    height: 42px;
+    text-align: center;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border: solid 1px grey;
+    width: 214px;
+  }
+
+  .btn-rnd-sm {
+    width: 28px;
+    height: 28px;
+    -webkit-border-radius: 14px;
+    -moz-border-radius: 14px;
+    border-radius: 14px;
+    background-image: linear-gradient(to left, #986cd1, #627ad1);
+    line-height: 21px;
+    font-size: 40px;
+    color: $textSecondaryColor;
+
+    &.pos-left {
+      position: absolute;
+      top: 7px;
+      left: -14px;
+     }
+
+    &.pos-right {
+      position: absolute;
+      top: 7px;
+      left: 200px;
+    }
+  }
+
+  .btn-grey-md {
+    width: 83px;
+    height: 30px;
+    border-radius: 3px;
+    background-image: linear-gradient(to top, #627085, #b7bbc1);
+    color: $textSecondaryColor;
+    font-size: $fontSizeSmall;
+    padding: 0;
+    line-height: 28px;
+    margin: 10% 0;
+  }
+
+  .prize-mult {
+    color: #a4cc2c;
+    font-size: 40px;
+    font-weight: 700;
   }
 }
 
 .inside-zone__bottom {
+  min-height: 140px;
 
+  .email-input {
+    height: 42px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border: solid 1px grey;
+    width: 80%;
+  }
+
+  .btn-bonus {
+    width: 40%;
+    height: 42px;
+    border: none;
+
+    border-radius: 500px;
+    font-size: $fontSizeSmall;
+    color: $textSecondaryColor;
+    background: linear-gradient(to left, #56a124, #a4cc2c);
+    padding: 0;
+
+    position: absolute;
+    left:60%;
+
+    line-height: 43px;
+
+    box-shadow: 0 5px 10px rgba(86, 161, 36, 0.5);
+  }
 }
 
 .b-content__top {
