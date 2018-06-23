@@ -174,7 +174,7 @@
   font-size: $fontSizeTiny;
 
   .btn-games {
-    width: 210px;
+    width: 100%;
     height: 42px;
     border: 2px solid #a4cc2c;
 
@@ -202,17 +202,16 @@
 
       z-index: -1;
       border-radius: 500px;
-
-      &:hover, &:focus {
-        background: linear-gradient(to left, #56a124, #a4cc2c);
-      }
-
     }
 
     &:hover, &:focus {
       color: $textSecondaryColor;
       background: linear-gradient(to left, #56a124, #a4cc2c);
       border-color: transparent;
+
+      &::before {
+        background: linear-gradient(to left, #56a124, #a4cc2c);
+      }
     }
   }
 }
