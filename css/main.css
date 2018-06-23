@@ -57,7 +57,7 @@
   font-size: 14px;
   font-weight: 300;
   color: #9aa9bd;
-  overflow-y: auto; }
+  overflow-y: scroll; }
   .inside-zone *, .inside-zone ::after, .inside-zone ::before {
     box-sizing: border-box; }
   .inside-zone h1 {
@@ -180,5 +180,14 @@
 .img-plus {
   margin-top: -3px;
   margin-left: -9px; }
+
+.btn-accordion {
+  display: inline-block;
+  width: 39px;
+  height: 39px;
+  text-decoration: none;
+  background: url("../images/open.png") no-repeat; }
+  .btn-accordion.collapsed {
+    background-image: url("../images/close.png"); }
 
 /*# sourceMappingURL=main.css.map */

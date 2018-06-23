@@ -28,7 +28,7 @@
   font-size: $fontSizeSmall;
   font-weight: 300;
   color: $textPrimaryColor;
-  overflow-y: auto;
+  overflow-y: scroll;
 
   *, ::after, ::before {
     box-sizing: border-box;
@@ -204,6 +204,18 @@
 .img-plus {
   margin-top: -3px;
   margin-left: -9px;
+}
+
+.btn-accordion {
+  display: inline-block;
+  width: 39px;
+  height: 39px;
+  text-decoration: none;
+  background: url("../images/open.png") no-repeat;
+  
+  &.collapsed {
+    background-image: url("../images/close.png");
+  }
 }
 
 
