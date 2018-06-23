@@ -162,25 +162,41 @@
 .inside-zone__top {
   min-width: 768px;
   height: 160px;
-  background: url("../images/icon_pad.png") no-repeat 0 41px , url("../images/ramka.png") no-repeat 0 center / auto 100%;
-  //-webkit-background-size: 54px 160px;
-  //background-size: auto cover;
+  background: url("../images/icon_pad.png") no-repeat 2px 49px , url("../images/ramka.png") no-repeat 0 center / auto 100%;
+
   font-size: $fontSizeTiny;
 
   a div{
     width: 150px;
     height: 42px;
-    border: solid 2px #a4cc2c;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
+    //border: 2px solid #a4cc2c;
+    line-height: 40px;
+
+
     border-radius: 21px;
     font-size: $fontSizeSmall;
     color: $textTertiaryColor;
+    background: #fff;
+
+    position: relative;
+    z-index: 2;
+
+    &::before{
+      top: -2px;
+      left: -2px;
+      content: '';
+      width: 152px;
+      height: 44px;
+      background: linear-gradient(to left, #56a124, #a4cc2c);
+      position: absolute;
+      z-index: 1;
+      border-radius: 21px;
+    }
 
     &:hover, &:focus {
       text-decoration: none;
       color: $textSecondaryColor;
-      background: linear-gradient(to left, #56a124, #56a124);
+      background: linear-gradient(to left, #56a124, #a4cc2c);
     }
   }
 }

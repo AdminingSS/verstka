@@ -149,21 +149,32 @@
 .inside-zone__top {
   min-width: 768px;
   height: 160px;
-  background: url("../images/icon_pad.png") no-repeat 0 41px, url("../images/ramka.png") no-repeat 0 center/auto 100%;
+  background: url("../images/icon_pad.png") no-repeat 2px 49px, url("../images/ramka.png") no-repeat 0 center/auto 100%;
   font-size: 12px; }
   .inside-zone__top a div {
     width: 150px;
     height: 42px;
-    border: solid 2px #a4cc2c;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
+    line-height: 40px;
     border-radius: 21px;
     font-size: 14px;
-    color: #251f21; }
+    color: #251f21;
+    background: #fff;
+    position: relative;
+    z-index: 2; }
+    .inside-zone__top a div::before {
+      top: -2px;
+      left: -2px;
+      content: '';
+      width: 152px;
+      height: 44px;
+      background: linear-gradient(to left, #56a124, #a4cc2c);
+      position: absolute;
+      z-index: 1;
+      border-radius: 21px; }
     .inside-zone__top a div:hover, .inside-zone__top a div:focus {
       text-decoration: none;
       color: #ffffff;
-      background: linear-gradient(to left, #56a124, #56a124); }
+      background: linear-gradient(to left, #56a124, #a4cc2c); }
 
 .inside-zone__middle {
   height: 400px; }
