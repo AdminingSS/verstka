@@ -174,10 +174,9 @@
   font-size: $fontSizeTiny;
 
   .btn-games {
-    width: 150px;
+    width: 210px;
     height: 42px;
     border: 2px solid #a4cc2c;
-    //line-height: 40px;
 
 
     border-radius: 500px;
@@ -188,17 +187,20 @@
     position: relative;
     z-index: 2;
 
+    line-height: 38px;
+    padding: 0;
+
     &::before{
       position: absolute;
-      top: 0;
-      left: 0;
-      bottom: 0;
-      right: 0;
+      top: -2px;
+      left: -2px;
+      bottom: -2px;
+      right: -2px;
       content: '';
       background: transparent;
       transition: color .15s;
 
-      z-index: 1;
+      z-index: -1;
       border-radius: 500px;
 
       &:hover, &:focus {
