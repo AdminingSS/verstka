@@ -151,8 +151,7 @@
   height: 160px;
   background: url("../images/icon_pad.png") no-repeat 0 41px, url("../images/ramka.png") no-repeat 0 center/auto 100%;
   font-size: 12px; }
-  .inside-zone__top a {
-    display: block;
+  .inside-zone__top a div {
     width: 150px;
     height: 42px;
     border: solid 2px #a4cc2c;
@@ -161,9 +160,10 @@
     border-radius: 21px;
     font-size: 14px;
     color: #251f21; }
-    .inside-zone__top a:hover, .inside-zone__top afocus {
+    .inside-zone__top a div:hover, .inside-zone__top a div:focus {
       text-decoration: none;
-      color: #251f21; }
+      color: #ffffff;
+      background: linear-gradient(to left, #56a124, #56a124); }
 
 .inside-zone__middle {
   height: 400px; }

@@ -167,8 +167,7 @@
   //background-size: auto cover;
   font-size: $fontSizeTiny;
 
-  a {
-    display: block;
+  a div{
     width: 150px;
     height: 42px;
     border: solid 2px #a4cc2c;
@@ -178,9 +177,10 @@
     font-size: $fontSizeSmall;
     color: $textTertiaryColor;
 
-    &:hover, &focus {
+    &:hover, &:focus {
       text-decoration: none;
-      color: $textTertiaryColor;
+      color: $textSecondaryColor;
+      background: linear-gradient(to left, #56a124, #56a124);
     }
   }
 }
