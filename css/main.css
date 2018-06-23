@@ -150,9 +150,7 @@
   max-width: 55px; }
 
 .inside-zone__top {
-  min-width: 768px;
-  height: 160px;
-  background: url("../images/gamepad.png") no-repeat 0 center/auto 100%;
+  background: url("../images/icon_pad.png") no-repeat 2px 49px, url("../images/ramka.png") no-repeat 0 center/auto 100% #fff;
   font-size: 12px; }
   .inside-zone__top .btn-games {
     width: 100%;
@@ -164,9 +162,9 @@
     background: #ffffff;
     position: relative;
     z-index: 2;
-    transition: 0ms;
     line-height: 38px;
-    padding: 0; }
+    padding: 0 10px;
+    margin: 10px 0; }
     .inside-zone__top .btn-games::before {
       position: absolute;
       top: -2px;
@@ -175,7 +173,7 @@
       right: -2px;
       content: '';
       background: transparent;
-      transition: 0ms;
+      transition: color .15s;
       z-index: -1;
       border-radius: 500px; }
     .inside-zone__top .btn-games:hover, .inside-zone__top .btn-games:focus {
@@ -184,12 +182,6 @@
       border-color: transparent; }
       .inside-zone__top .btn-games:hover::before, .inside-zone__top .btn-games:focus::before {
         background: linear-gradient(to left, #56a124, #a4cc2c); }
-
-.inside-zone__middle {
-  height: 400px; }
-
-.inside-zone__bottom {
-  height: 160px; }
 
 .b-content__top {
   padding: 30px 0; }

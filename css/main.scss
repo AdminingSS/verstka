@@ -167,9 +167,7 @@
 }
 
 .inside-zone__top {
-  min-width: 768px;
-  height: 160px;
-  background: url("../images/gamepad.png") no-repeat 0 center / auto 100%;
+  background: url("../images/icon_pad.png") no-repeat 2px 49px , url("../images/ramka.png") no-repeat 0 center / auto 100% #fff;
 
   font-size: $fontSizeTiny;
 
@@ -178,7 +176,6 @@
     height: 42px;
     border: 2px solid #a4cc2c;
 
-
     border-radius: 500px;
     font-size: $fontSizeSmall;
     color: $textTertiaryColor;
@@ -186,12 +183,12 @@
 
     position: relative;
     z-index: 2;
-    transition: 0ms;
 
     line-height: 38px;
-    padding: 0;
+    padding: 0 10px;
+    margin: 10px 0;
 
-    &::before {
+    &::before{
       position: absolute;
       top: -2px;
       left: -2px;
@@ -199,7 +196,7 @@
       right: -2px;
       content: '';
       background: transparent;
-      transition: 0ms;
+      transition: color .15s;
 
       z-index: -1;
       border-radius: 500px;
@@ -218,11 +215,11 @@
 }
 
 .inside-zone__middle {
-  height: 400px;
+
 }
 
 .inside-zone__bottom {
-  height: 160px;
+
 }
 
 .b-content__top {
