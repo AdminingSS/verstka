@@ -167,9 +167,7 @@
 }
 
 .inside-zone__top {
-  min-width: 768px;
-  height: 160px;
-  background: url("../images/icon_pad.png") no-repeat 2px 49px , url("../images/ramka.png") no-repeat 0 center / auto 100%;
+  background: url("../images/icon_pad.png") no-repeat 2px 49px , url("../images/ramka.png") no-repeat 0 center / auto 100% #fff;
 
   font-size: $fontSizeTiny;
 
@@ -177,7 +175,6 @@
     width: 100%;
     height: 42px;
     border: 2px solid #a4cc2c;
-
 
     border-radius: 500px;
     font-size: $fontSizeSmall;
@@ -188,7 +185,8 @@
     z-index: 2;
 
     line-height: 38px;
-    padding: 0;
+    padding: 0 10px;
+    margin: 10px 0;
 
     &::before{
       position: absolute;
@@ -217,11 +215,11 @@
 }
 
 .inside-zone__middle {
-  height: 400px;
+
 }
 
 .inside-zone__bottom {
-  height: 160px;
+
 }
 
 .b-content__top {
