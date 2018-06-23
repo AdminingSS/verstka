@@ -173,7 +173,7 @@
 
   font-size: $fontSizeTiny;
 
-  .btn-primary {
+  .btn-games {
     width: 150px;
     height: 42px;
     border: 2px solid #a4cc2c;
@@ -196,6 +196,7 @@
       right: 0;
       content: '';
       background: transparent;
+      transition: color .15s;
 
       z-index: 1;
       border-radius: 500px;

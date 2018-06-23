@@ -154,7 +154,7 @@
   height: 160px;
   background: url("../images/icon_pad.png") no-repeat 2px 49px, url("../images/ramka.png") no-repeat 0 center/auto 100%;
   font-size: 12px; }
-  .inside-zone__top .btn-primary {
+  .inside-zone__top .btn-games {
     width: 150px;
     height: 42px;
     border: 2px solid #a4cc2c;
@@ -164,7 +164,7 @@
     background: #ffffff;
     position: relative;
     z-index: 2; }
-    .inside-zone__top .btn-primary::before {
+    .inside-zone__top .btn-games::before {
       position: absolute;
       top: 0;
       left: 0;
@@ -172,11 +172,12 @@
       right: 0;
       content: '';
       background: transparent;
+      transition: color .15s;
       z-index: 1;
       border-radius: 500px; }
-      .inside-zone__top .btn-primary::before:hover, .inside-zone__top .btn-primary::before:focus {
+      .inside-zone__top .btn-games::before:hover, .inside-zone__top .btn-games::before:focus {
         background: linear-gradient(to left, #56a124, #a4cc2c); }
-    .inside-zone__top .btn-primary:hover, .inside-zone__top .btn-primary:focus {
+    .inside-zone__top .btn-games:hover, .inside-zone__top .btn-games:focus {
       color: #ffffff;
       background: linear-gradient(to left, #56a124, #a4cc2c);
       border-color: transparent; }
