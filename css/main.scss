@@ -7,9 +7,20 @@
 }
 
 .bg-grey-line {
-  background: url("../images/bg_grey_line.png") no-repeat center 0;
-  -webkit-background-size: 100% auto;
-  background-size: 100% auto;
+  position: relative;
+
+  &::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    height: 18px;
+    background: url("../images/bg_grey_line.png") no-repeat center 0;
+    -webkit-background-size: 100% auto;
+    background-size: 100% auto;
+  }
 }
 
 .inside-zone {
@@ -18,19 +29,24 @@
   font-weight: 300;
   color: $textPrimaryColor;
   overflow-y: auto;
-  //background: #f8fafe;
-  //border: 1px solid #8bbe29;
-  //border-radius: 10px;
+
+  *, ::after, ::before {
+    box-sizing: border-box;
+  }
 
   h1 {
+    margin-bottom: 20px;
+    font-size: $fontSizeMain;
+    font-weight: 700;
+    color: #282828;
+    text-transform: uppercase;
+  }
+  h2 {
+    margin-bottom: 10px;
     font-size: $fontSizeSmall;
     font-weight: 700;
     color: $textTertiaryColor;
-  }
-  h2 {
-    font-size: $fontSizeMain;
-    font-weight: 700;
-    color: $textTertiaryColor;
+    text-transform: uppercase;
   }
   h3 {
     font-size: $fontSizeBig;
@@ -38,9 +54,8 @@
     color: $textTertiaryColor;
   }
 
-  .hr-grey-line-2 {
-    height: 2px;
-    background-color: #cad3de;
+  * + p {
+    margin-top: 20px;
   }
 }
 
@@ -178,3 +193,20 @@
 .inside-zone__bottom {
   height: 160px;
 }
+
+.b-content__top {
+  padding: 30px 0;
+}
+
+.border-bottom-grey {
+  border-bottom: 2px solid #cad3de;
+}
+
+
+
+
+
+
+
+
+
