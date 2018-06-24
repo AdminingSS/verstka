@@ -13223,14 +13223,15 @@ var _malihuCustomScrollbarPlugin2 = _interopRequireDefault(_malihuCustomScrollba
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-(0, _jquery2.default)(window).on("load", function () {
-    (0, _jquery2.default)(".b-content__scroll").mCustomScrollbar({
-        theme: 'dark',
-        mouseWheel: {
-            preventDefault: true
-        }
-    });
-});
+//WARNING!!! DISABLED SCROLL! DONT WORK IN SOME BROWSERS!
+// (0, _jquery2.default)(window).on("load", function () {
+//     (0, _jquery2.default)(".b-content__scroll").mCustomScrollbar({
+//         theme: 'dark',
+//         mouseWheel: {
+//             preventDefault: true
+//         }
+//     });
+// });
 
 /***/ })
 

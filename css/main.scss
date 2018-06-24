@@ -544,7 +544,13 @@
   border-right: 1px solid #b2bccb;
 }
 
-.b-content__scroll {
+.b-content__scroll_mk2 {
+  position: relative;
+  overflow: auto;
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  *border: 1px solid gray;
   margin: 0;
 }
 
@@ -557,4 +563,8 @@
   .b-top-buttons__register {
     margin-right: 0;
   }
+}
+
+.tm_scroll_auto {
+  overflow-y: auto;
 }
