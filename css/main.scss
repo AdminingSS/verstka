@@ -88,21 +88,21 @@
   width: 79px;
   height: 79px;
   color: #f8fafe;
-  background: url("../images/ball_1.png") no-repeat center top;
+  background: url("../images/ball_sm_1.png") no-repeat center top;
 }
 .ball_lg {
   width: 135px;
   height: 138px;
   color: #f8fafe;
-  background: url("../images/ball_3.png") no-repeat center top;
+  background: url("../images/ball_bg.png") no-repeat center top;
 }
 
 .ball_2 {
-  background-image: url("../images/ball_2.png");
+  background-image: url("../images/ball_sm_2.png");
 }
 
-.ball_4 {
-  background-image: url("../images/ball_4.png");
+.ball_3 {
+  background-image: url("../images/ball_sm_3.png");
 }
 
 .tm-balls__wrap {
@@ -305,7 +305,7 @@
 }
 
 .inside-zone__middle {
-  min-height: 370px;
+  min-height: 350px;
 
   .btn-game-big {
     background-image: linear-gradient(to left, #986cd1, #627ad1);

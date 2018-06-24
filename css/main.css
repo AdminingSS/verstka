@@ -89,19 +89,19 @@
   width: 79px;
   height: 79px;
   color: #f8fafe;
-  background: url("../images/ball_1.png") no-repeat center top; }
+  background: url("../images/ball_sm_1.png") no-repeat center top; }
 
 .ball_lg {
   width: 135px;
   height: 138px;
   color: #f8fafe;
-  background: url("../images/ball_3.png") no-repeat center top; }
+  background: url("../images/ball_bg.png") no-repeat center top; }
 
 .ball_2 {
-  background-image: url("../images/ball_2.png"); }
+  background-image: url("../images/ball_sm_2.png"); }
 
-.ball_4 {
-  background-image: url("../images/ball_4.png"); }
+.ball_3 {
+  background-image: url("../images/ball_sm_3.png"); }
 
 .tm-balls__wrap {
   position: relative;
@@ -170,8 +170,7 @@
       background-color: transparent !important; }
 
 .inside-zone__help-main {
-  color: #251f21;
-  min-width: 768px; }
+  color: #251f21; }
 
 .inside-zone__help-warning {
   border: dashed 1px #7d7d7d;
@@ -203,7 +202,7 @@
   max-width: 55px; }
 
 .inside-zone__top {
-  min-height: 140px;
+  min-height: 130px;
   background: url("../images/gamepad.png") no-repeat -4px center/auto 100% #f8fafe;
   font-size: 12px; }
   .inside-zone__top .btn-games {
@@ -240,7 +239,7 @@
         background: linear-gradient(to left, #56a124, #a4cc2c); }
 
 .inside-zone__middle {
-  min-height: 370px; }
+  min-height: 350px; }
   .inside-zone__middle .btn-game-big {
     background-image: linear-gradient(to left, #986cd1, #627ad1);
     width: 236px;
@@ -319,6 +318,8 @@
     left: 60%;
     line-height: 43px;
     box-shadow: 0 5px 10px rgba(86, 161, 36, 0.5); }
+  .inside-zone__bottom ol {
+    margin: 0; }
 
 .b-content__top {
   padding: 30px 0; }
@@ -341,10 +342,14 @@
 
 .btn-accordion {
   display: inline-block;
-  width: 39px;
-  height: 39px;
+  width: 25px;
+  height: 25px;
   text-decoration: none;
-  background: url("../images/open.png") no-repeat; }
+  background: url("../images/close.png") no-repeat transparent;
+  box-shadow: 0 5px 10px rgba(86, 161, 36, 0.5);
+  -webkit-border-radius: 500px;
+  -moz-border-radius: 500px;
+  border-radius: 500px; }
   .btn-accordion.collapsed {
     background-image: url("../images/close.png"); }
 
