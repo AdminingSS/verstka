@@ -28,7 +28,7 @@
   font-size: $fontSizeSmall;
   font-weight: 300;
   color: $textPrimaryColor;
-  overflow-y: scroll;
+  overflow-y: auto;
 
   *, ::after, ::before {
     box-sizing: border-box;
@@ -172,10 +172,14 @@
 
 .inside-zone__top {
 
-  min-height: 140px;
+  min-height: 130px;
   background: url("../images/gamepad.png") no-repeat -4px center / auto 100% #f8fafe;
 
   font-size: $fontSizeTiny;
+
+  padding: 0 !important;
+
+  min-width: 768px;
 
   .btn-games {
     width: 100%;
@@ -223,7 +227,8 @@
 }
 
 .inside-zone__middle {
-  min-height: 370px;
+  min-height: 350px;
+  padding: 0 !important;
 
   .btn-game-big {
     background-image: linear-gradient(to left, #986cd1, #627ad1);
@@ -298,7 +303,8 @@
 }
 
 .inside-zone__bottom {
-  min-height: 140px;
+  min-height: 120px;
+  padding: 0 !important;
 
   .email-input {
     height: 42px;
@@ -326,6 +332,10 @@
     line-height: 43px;
 
     box-shadow: 0 5px 10px rgba(86, 161, 36, 0.5);
+  }
+
+  ol {
+    margin: 0;
   }
 }
 
