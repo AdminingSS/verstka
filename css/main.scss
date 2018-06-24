@@ -69,6 +69,58 @@
     margin-top: 20px;
   }
 
+  .tm-input {
+    height: 30px;
+    padding: 0 20px;
+    text-align: center;
+    color: inherit;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border: solid 1px #c0c8d2;
+  }
+
+  .email-input {
+    height: 42px;
+    text-align: left;
+  }
+
+  .Прямоугольник__скругл__углы_4 {
+    border-width: 1px;
+    border-color: rgb(192, 200, 210);
+    border-style: solid;
+    border-radius: 5px;
+    position: absolute;
+    left: 697px;
+    top: 483px;
+    width: 212px;
+    height: 40px;
+    z-index: 119;
+  }
+  .Прямоугольник__скругл__углы_4_копия_3 {
+    border-width: 1px;
+    border-color: rgb(192, 200, 210);
+    border-style: solid;
+    position: absolute;
+    left: 1107px;
+    top: 829px;
+    width: 418px;
+    height: 40px;
+    z-index: 31;
+  }
+  .Прямоугольник__скругл__углы_5_копия {
+    border-width: 1px;
+    border-color: rgb(192, 200, 210);
+    border-style: solid;
+    position: absolute;
+    left: 804px;
+    top: 669px;
+    width: 601px;
+    height: 27px;
+    z-index: 212;
+  }
+
+
   .third-color {
     color: $textTertiaryColor;
   }
@@ -336,9 +388,10 @@
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
-    border: solid 1px grey;
+    border: solid 1px #c0c8d2;
     width: 214px;
   }
+
 
   .btn-rnd-sm {
     width: 28px;
@@ -529,4 +582,15 @@
 
 .b-content__scroll {
   margin: 0;
+}
+
+.b-top-buttons__register {
+   margin-right: 0;
+}
+
+@media (max-width: 1333px){
+
+  .b-top-buttons__register {
+    margin-right: 0;
+  }
 }
