@@ -365,13 +365,17 @@
 
 .btn-accordion {
   display: inline-block;
-  width: 39px;
-  height: 39px;
+  width: 25px;
+  height: 25px;
   text-decoration: none;
-  background: url("../images/close.png") no-repeat;
+  background: url("../images/close.png") no-repeat transparent;
+  box-shadow: 0 5px 10px rgba(86, 161, 36, 0.5);
+  -webkit-border-radius: 500px;
+  -moz-border-radius: 500px;
+  border-radius: 500px;
   
   &.collapsed {
-    background-image: url("../images/open.png");
+    background: url("../images/open.png") no-repeat transparent;
   }
 }
 
