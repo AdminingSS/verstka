@@ -29,6 +29,7 @@
   font-weight: 300;
   color: $textPrimaryColor;
   overflow-y: auto;
+  min-width: 768px;
 
   *, ::after, ::before {
     box-sizing: border-box;
@@ -118,7 +119,7 @@
 
 .inside-zone__help-main {
   color: $textTertiaryColor;
-  min-width: 768px;
+  //min-width: 768px;
 }
 
 .inside-zone__help-warning {
@@ -179,7 +180,7 @@
 
   padding: 0 !important;
 
-  min-width: 768px;
+  //min-width: 768px;
 
   .btn-games {
     width: 100%;
