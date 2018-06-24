@@ -12,6 +12,9 @@
     <link rel="stylesheet"
           href="https://cdn.jsdelivr.net/jquery.mcustomscrollbar/3.0.6/jquery.mCustomScrollbar.min.css">
 
+    <!--delete when done-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
     <link rel="stylesheet" href="dist/main.css">
 
     <!--rename after work-->
@@ -247,10 +250,10 @@
 
         </div>
     </div>
+
     <div class="b-container">
 
         <div class="b-top-panel">
-
             <div class="b-top-menu">
                 <ul class="b-top-menu__ul">
                     <li class="b-top-menu__li">
@@ -273,175 +276,215 @@
                 <button class="b-top-buttons__login">Войти</button>
                 <button class="b-top-buttons__register">Регистрация</button>
             </div>
-
-
         </div>
+
         <div class="b-content">
-            <!--<div class="b-content__top border-0">-->
             <!--start of inside zone-->
 
-            <div class="b-content__top inside-zone flex-column">
+            <div class="b-content__top">
 
-                <div class="text-center pt-4 pb-3 inside-zone__welcome">
-                    <h2>ЗДРАВСТВУЙТЕ, <span>KRABOLIK</span></h2>
-                </div>
+                <div class="container-fluid inside-zone px-5">
 
-                <div class="py-0 inside-zone__main">
-                    <div class="mx-auto m-0 h-100 d-flex align-items-center justify-content-around">
-                        <div class="">
-                            <div class="ball_sm d-flex align-items-center"
-                                 style="background: url('images/ball_1.png') no-repeat;">
-                                <p class="mx-auto">84</p>
-                            </div>
-                            <div class="btn"></div>
-                        </div>
-                        <div class=" text-center">
-                            <div class="ball_sm d-flex align-items-center"
-                                 style="background: url('images/ball_2.png') no-repeat;">
-                                <p class="mx-auto">1</p>
-                            </div>
-                            <div>УЧАСТИЙ <p>В ИГРАХ</p></div>
-                            <div class="btn"></div>
-                        </div>
+                    <div class="text-center py-4 bg-grey-line inside-zone__welcome">
+                        <h1>Здравствуйте, <span>KRABOLIK</span></h1>
+                    </div>
+
+                    <div class="d-flex align-items-stretch justify-content-around text-center bg-grey-line">
                         <div class="d-flex align-items-center">
-                            <div class="ball_lg border d-flex align-items-center"
-                                 style="background: url('images/ball_3.png') no-repeat;">
-                                <p class="mx-auto pb-2">1.504</p>
+                            <div class="py-4">
+                                <div class="ball_sm tm-text-main d-flex align-items-center justify-content-center mx-auto mb-2 font-weight-bold">
+                                    <div>84</div>
+                                </div>
+                                <div class="mb-2 text-uppercase">
+                                    <div>участий</div>
+                                    <div class="font-weight-bold tm-text-main">в играх</div>
+                                </div>
+                                <div>
+                                    <a href="#" class="btn">подробнее</a>
+                                </div>
                             </div>
-                            <div class="btn"></div>
                         </div>
-                        <div class="">
-                            <div class="ball_sm d-flex align-items-center"
-                                 style="background: url('images/ball_4.png') no-repeat;">
-                                <p class="mx-auto">24</p>
+
+                        <div class="tm-balls__wrap d-flex align-items-stretch">
+                            <div class="d-flex align-items-center px-4">
+                                <div class="py-4">
+                                    <div class="ball_sm ball_2 tm-text-main d-flex align-items-center justify-content-center mx-auto mb-2 font-weight-bold">
+                                        <div>1</div>
+                                    </div>
+                                    <div class="mb-2 text-uppercase">
+                                        <div>ваш уровень</div>
+                                        <div class="font-weight-bold tm-text-main">аккаунта</div>
+                                    </div>
+                                    <div>
+                                        <a href="#" class="btn">подробнее</a>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="btn"></div>
+
+                            <div class="tm-balls__wrap_inner d-flex align-items-center">
+                                <div class="py-4">
+                                    <div class="tm-balls__wrap_inside mb-2">
+                                        <div class="ball_lg tm-text-main d-flex align-items-center justify-content-center mx-auto font-weight-bold">
+                                            <div>1.504</div>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <a href="#" class="btn text-uppercase">выиграно всего</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="d-flex align-items-center px-4">
+                                <div class="py-4">
+                                    <div class="ball_sm ball_4 tm-text-main d-flex align-items-center justify-content-center mx-auto mb-2 font-weight-bold">
+                                        <div>24</div>
+                                    </div>
+                                    <div class="mb-2 text-uppercase">
+                                        <div>достижений</div>
+                                        <div class="font-weight-bold tm-text-main"><span class="tm-text-orange">24</span> из <span class="tm-text-orange">240</span></div>
+                                    </div>
+                                    <div>
+                                        <a href="#" class="btn">подробнее</a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="col-2">
-                            <div class="ball_sm d-flex align-items-center"
-                                 style="background: url('images/ball_5.png') no-repeat;">
-                                <p class="mx-auto">124</p>
+
+                        <div class="d-flex align-items-center">
+                            <div class="py-4">
+                                <div class="ball_sm tm-text-main d-flex align-items-center justify-content-center mx-auto mb-2 font-weight-bold">
+                                    <div>124</div>
+                                </div>
+                                <div class="mb-2 text-uppercase">
+                                    <div>был</div>
+                                    <div class="font-weight-bold tm-text-main">лучшим</div>
+                                </div>
+                                <div>
+                                    <a href="#" class="btn">подробнее</a>
+                                </div>
                             </div>
-                            <div class="btn"></div>
                         </div>
                     </div>
+
+                    <div id="accordion">
+                        <div>
+                            <div class="text-center py-4 bg-grey-line">
+                                <h1 class="pb-0 mb-0">ИСТОРИЯ ПОПОЛНЕНИЙ И ВЫВОДОВ</h1>
+                                <a href="#collapseOne" class="btn-accordion collapsed" data-toggle="collapse" aria-expanded="false" aria-controls="collapseOne"></a>
+                            </div>
+                            <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam amet aperiam architecto autem commodi culpa eaque, ex exercitationem, explicabo illo iste labore nesciunt non odio officia omnis quaerat quisquam, unde?
+                            </div>
+                        </div>
+                        <div>
+                            <div class="text-center py-4 bg-grey-line">
+                                <h1 class="pb-0 mb-0">ИСТОРИЯ СТАВОК</h1>
+                                <a class="btn-accordion" href="#collapseTwo" data-toggle="collapse" aria-expanded="true" aria-controls="collapseTwo"></a>
+                            </div>
+                            <div id="collapseTwo" class="inside-zone__table collapse show" aria-labelledby="headingTwo" data-parent="#accordion">
+                                <table class="table table-bordered">
+                                    <thead class="thead-light">
+                                    <tr>
+                                        <th scope="col">НОМЕР СТАВКИ</th>
+                                        <th scope="col">ИГРА</th>
+                                        <th scope="col">ДАТА И ВРЕМЯ</th>
+                                        <th scope="col">ШАНС</th>
+                                        <th scope="col">ВЫИГРЫШ</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    <tr>
+                                        <td scope="row">#12341534</td>
+                                        <td>Большой куш</td>
+                                        <td>03.06.2018 17:20</td>
+                                        <td>80 %</td>
+                                        <td>20 N</td>
+                                    </tr>
+                                    <tr>
+                                        <td scope="row">#12341534</td>
+                                        <td>Большой куш</td>
+                                        <td>03.06.2018 17:20</td>
+                                        <td>80 %</td>
+                                        <td>20 N</td>
+                                    </tr>
+                                    <tr>
+                                        <td scope="row">#12341534</td>
+                                        <td>Большой куш</td>
+                                        <td>03.06.2018 17:20</td>
+                                        <td>80 %</td>
+                                        <td>20 N</td>
+                                    </tr>
+                                    <tr>
+                                        <td scope="row">#12341534</td>
+                                        <td>Большой куш</td>
+                                        <td>03.06.2018 17:20</td>
+                                        <td>80 %</td>
+                                        <td>20 N</td>
+                                    </tr>
+                                    <tr>
+                                        <td scope="row">#12341534</td>
+                                        <td>Большой куш</td>
+                                        <td>03.06.2018 17:20</td>
+                                        <td>80 %</td>
+                                        <td>20 N</td>
+                                    </tr>
+                                    <tr>
+                                        <td scope="row">#12341534</td>
+                                        <td>Большой куш</td>
+                                        <td>03.06.2018 17:20</td>
+                                        <td>80 %</td>
+                                        <td>20 N</td>
+                                    </tr>
+                                    <tr>
+                                        <td scope="row">#12341534</td>
+                                        <td>Большой куш</td>
+                                        <td>03.06.2018 17:20</td>
+                                        <td>80 %</td>
+                                        <td>20 N</td>
+                                    </tr>
+                                    <tr>
+                                        <td scope="row">#12341534</td>
+                                        <td>Большой куш</td>
+                                        <td>03.06.2018 17:20</td>
+                                        <td>80 %</td>
+                                        <td>20 N</td>
+                                    </tr>
+                                    <tr>
+                                        <td scope="row">#12341534</td>
+                                        <td>Большой куш</td>
+                                        <td>03.06.2018 17:20</td>
+                                        <td>80 %</td>
+                                        <td>20 N</td>
+                                    </tr>
+                                    <tr>
+                                        <td scope="row">#12341534</td>
+                                        <td>Большой куш</td>
+                                        <td>03.06.2018 17:20</td>
+                                        <td>80 %</td>
+                                        <td>20 N</td>
+                                    </tr>
+                                    <tr>
+                                        <td scope="row">#12341534</td>
+                                        <td>Большой куш</td>
+                                        <td>03.06.2018 17:20</td>
+                                        <td>80 %</td>
+                                        <td>20 N</td>
+                                    </tr>
+                                    <tr>
+                                        <td scope="row">#12341534</td>
+                                        <td>Большой куш</td>
+                                        <td>03.06.2018 17:20</td>
+                                        <td>80 %</td>
+                                        <td>20 N</td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
-                <div id="accordion">
-                    <div>
-                        <div class="text-center py-4 bg-grey-line">
-                            <h1 class="pb-0 mb-0">ИСТОРИЯ ПОПОЛНЕНИЙ И ВЫВОДОВ</h1>
-                            <a href="#collapseOne" class="btn-accordion collapsed" data-toggle="collapse" aria-expanded="false" aria-controls="collapseOne"></a>
-                        </div>
-                        <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam amet aperiam architecto autem commodi culpa eaque, ex exercitationem, explicabo illo iste labore nesciunt non odio officia omnis quaerat quisquam, unde?
-                        </div>
-                    </div>
-                    <div>
-                        <div class="text-center py-4 bg-grey-line">
-                            <h1 class="pb-0 mb-0">ИСТОРИЯ СТАВОК</h1>
-                            <a class="btn-accordion" href="#collapseTwo" data-toggle="collapse" aria-expanded="true" aria-controls="collapseTwo"></a>
-                        </div>
-                        <div id="collapseTwo" class="inside-zone__table collapse show" aria-labelledby="headingTwo" data-parent="#accordion">
-                            <table class="table table-bordered">
-                                <thead class="thead-light">
-                                <tr>
-                                    <th scope="col">НОМЕР СТАВКИ</th>
-                                    <th scope="col">ИГРА</th>
-                                    <th scope="col">ДАТА И ВРЕМЯ</th>
-                                    <th scope="col">ШАНС</th>
-                                    <th scope="col">ВЫИГРЫШ</th>
-                                </tr>
-                                </thead>
-                                <tbody>
-                                <tr>
-                                    <td scope="row">#12341534</td>
-                                    <td>Большой куш</td>
-                                    <td>03.06.2018 17:20</td>
-                                    <td>80 %</td>
-                                    <td>20 N</td>
-                                </tr>
-                                <tr>
-                                    <td scope="row">#12341534</td>
-                                    <td>Большой куш</td>
-                                    <td>03.06.2018 17:20</td>
-                                    <td>80 %</td>
-                                    <td>20 N</td>
-                                </tr>
-                                <tr>
-                                    <td scope="row">#12341534</td>
-                                    <td>Большой куш</td>
-                                    <td>03.06.2018 17:20</td>
-                                    <td>80 %</td>
-                                    <td>20 N</td>
-                                </tr>
-                                <tr>
-                                    <td scope="row">#12341534</td>
-                                    <td>Большой куш</td>
-                                    <td>03.06.2018 17:20</td>
-                                    <td>80 %</td>
-                                    <td>20 N</td>
-                                </tr>
-                                <tr>
-                                    <td scope="row">#12341534</td>
-                                    <td>Большой куш</td>
-                                    <td>03.06.2018 17:20</td>
-                                    <td>80 %</td>
-                                    <td>20 N</td>
-                                </tr>
-                                <tr>
-                                    <td scope="row">#12341534</td>
-                                    <td>Большой куш</td>
-                                    <td>03.06.2018 17:20</td>
-                                    <td>80 %</td>
-                                    <td>20 N</td>
-                                </tr>
-                                <tr>
-                                    <td scope="row">#12341534</td>
-                                    <td>Большой куш</td>
-                                    <td>03.06.2018 17:20</td>
-                                    <td>80 %</td>
-                                    <td>20 N</td>
-                                </tr>
-                                <tr>
-                                    <td scope="row">#12341534</td>
-                                    <td>Большой куш</td>
-                                    <td>03.06.2018 17:20</td>
-                                    <td>80 %</td>
-                                    <td>20 N</td>
-                                </tr>
-                                <tr>
-                                    <td scope="row">#12341534</td>
-                                    <td>Большой куш</td>
-                                    <td>03.06.2018 17:20</td>
-                                    <td>80 %</td>
-                                    <td>20 N</td>
-                                </tr>
-                                <tr>
-                                    <td scope="row">#12341534</td>
-                                    <td>Большой куш</td>
-                                    <td>03.06.2018 17:20</td>
-                                    <td>80 %</td>
-                                    <td>20 N</td>
-                                </tr>
-                                <tr>
-                                    <td scope="row">#12341534</td>
-                                    <td>Большой куш</td>
-                                    <td>03.06.2018 17:20</td>
-                                    <td>80 %</td>
-                                    <td>20 N</td>
-                                </tr>
-                                <tr>
-                                    <td scope="row">#12341534</td>
-                                    <td>Большой куш</td>
-                                    <td>03.06.2018 17:20</td>
-                                    <td>80 %</td>
-                                    <td>20 N</td>
-                                </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
-                </div>
+
             </div>
 
             <!--unknown object - delete-->

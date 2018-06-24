@@ -1,4 +1,3 @@
-@charset "UTF-8";
 @font-face {
   font-family: 'Museo Sans Cyrl';
   src: url(../fonts/MuseoSansCyrl-100.woff2) format("woff2"), url(../fonts/MuseoSansCyrl-100.woff) format("woff");
@@ -24,19 +23,16 @@
   src: url(../fonts/MuseoSansCyrl-900.woff2) format("woff2"), url(../fonts/MuseoSansCyrl-900.woff) format("woff");
   font-weight: 900;
   font-style: normal; }
-.╨Я╤А╤П╨╝╨╛╤Г╨│╨╛╨╗╤М╨╜╨╕╨║__╤Б╨║╤А╤Г╨│╨╗__╤Г╨│╨╗╤Л_523 {
-  background-color: #e3ebf6;
-  position: absolute;
-  left: 498px;
-  top: 769px;
-  width: 556px;
-  height: 40px;
-  z-index: 68; }
-
 .bg-cover {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover; }
+
+.tm-text-main {
+  font-size: 16px; }
+
+.tm-text-orange {
+  color: #ff9a0a; }
 
 .bg-grey-line {
   position: relative; }
@@ -79,7 +75,7 @@
   .inside-zone .third-color {
     color: #251f21; }
 
-.inside-zone__welcome h2 {
+.inside-zone__welcome h1 {
   color: #9aa9bd; }
 .inside-zone__welcome span {
   font-weight: 900;
@@ -89,22 +85,77 @@
   -webkit-text-fill-color: transparent;
   text-shadow: 0px -4px 0 rgba(255, 255, 255, 0.2); }
 
-.inside-zone__main {
-  background: url("../images/bg_grey_line.png") no-repeat center 0, url("../images/bg_circle_lines.png") no-repeat center 0;
-  -webkit-background-size: 100% auto;
-  background-size: 100% auto;
-  height: 246px;
-  min-width: 768px; }
-  .inside-zone__main .ball_sm {
-    width: 96px;
-    height: 96px;
-    padding: 0;
-    margin: 0; }
-  .inside-zone__main .ball_lg {
-    width: 170px;
-    height: 170px;
-    padding: 0;
-    margin: 0; }
+.ball_sm {
+  width: 79px;
+  height: 79px;
+  color: #f8fafe;
+  background: url("../images/ball_1.png") no-repeat center top; }
+
+.ball_lg {
+  width: 135px;
+  height: 138px;
+  color: #f8fafe;
+  background: url("../images/ball_3.png") no-repeat center top; }
+
+.ball_2 {
+  background-image: url("../images/ball_2.png"); }
+
+.ball_4 {
+  background-image: url("../images/ball_4.png"); }
+
+.tm-balls__wrap {
+  position: relative;
+  padding: 0 80px; }
+  .tm-balls__wrap::before, .tm-balls__wrap::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 1px;
+    bottom: -1px;
+    width: 70px;
+    background: url("../images/bg_circle_lines.png") no-repeat; }
+  .tm-balls__wrap::before {
+    left: 0;
+    background-position: left center; }
+  .tm-balls__wrap::after {
+    right: 0;
+    background-position: right center; }
+
+.tm-balls__wrap_inner {
+  position: relative;
+  padding: 0 80px; }
+  .tm-balls__wrap_inner::before, .tm-balls__wrap_inner::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 1px;
+    bottom: -1px;
+    width: 100px;
+    background: url("../images/bg_circle_lines_inner.png") no-repeat; }
+  .tm-balls__wrap_inner::before {
+    left: 0;
+    background-position: left center; }
+  .tm-balls__wrap_inner::after {
+    right: 0;
+    background-position: right center; }
+
+.tm-balls__wrap_inside {
+  position: relative;
+  padding: 0 40px; }
+  .tm-balls__wrap_inside::before, .tm-balls__wrap_inside::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 35px;
+    background: url("../images/bg_circle_lines_inside.png") no-repeat; }
+  .tm-balls__wrap_inside::before {
+    left: 0;
+    background-position: left center; }
+  .tm-balls__wrap_inside::after {
+    right: 0;
+    background-position: right center; }
 
 .inside-zone__table {
   font-size: 13px;
