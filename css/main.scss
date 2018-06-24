@@ -357,10 +357,10 @@
   width: 39px;
   height: 39px;
   text-decoration: none;
-  background: url("../images/close.png") no-repeat;
+  background: url("../images/open.png") no-repeat;
   
   &.collapsed {
-    background-image: url("../images/open.png");
+    background-image: url("../images/close.png");
   }
 }
 
