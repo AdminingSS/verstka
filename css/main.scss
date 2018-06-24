@@ -454,6 +454,53 @@
   }
 }
 
+.btn-profile-sm {
+  -webkit-border-radius: 500px;
+  -moz-border-radius: 500px;
+  border-radius: 500px;
+  width: 89px;
+  height: 25px;
+  line-height: 25px;
+  padding: 0;
+  border: none;
+  color: $textSecondaryColor;
+  font-size: $fontSizeTiny;
+}
+
+.btn-profile-lg {
+  -webkit-border-radius: 500px;
+  -moz-border-radius: 500px;
+  border-radius: 500px;
+  width: 175px;
+  height: 44px;
+  line-height: 44px;
+  padding: 0;
+  border: none;
+  color: $textSecondaryColor;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.btn-bgc-grey {
+  background-image: linear-gradient(to left, #627085, #b7bbc1);
+  box-shadow: 0 5px 10px rgba(98, 112, 133, 0.3);
+}
+
+.btn-bgc-violet {
+  background-image: linear-gradient(to left, #9C7AD1, #627ad1);
+  box-shadow: 0 5px 10px rgba(98, 122, 209, 0.3);
+}
+
+.btn-bgc-green {
+  background-image: linear-gradient(to left, #8bbe29, #56a124);
+  box-shadow: 0 5px 10px rgba(86, 161, 36, 0.3);
+}
+
+.btn-bgc-orange {
+  background-image: linear-gradient(to left, #ff9a0a, #FFB622);
+  box-shadow: 0 5px 10px rgba(255, 154, 10, 0.3), inset 0px -4px 0 0 rgba(255, 154, 10, 0.2);
+}
+
 .tm-nav-imgs {
 
   a {
