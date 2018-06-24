@@ -34,6 +34,9 @@
 .tm-text-orange {
   color: #ff9a0a; }
 
+.tm-text-nowrap {
+  white-space: nowrap; }
+
 .bg-grey-line {
   position: relative; }
   .bg-grey-line::before {
@@ -53,7 +56,8 @@
   font-size: 14px;
   font-weight: 300;
   color: #9aa9bd;
-  overflow-y: auto; }
+  overflow-y: auto;
+  min-width: 768px; }
   .inside-zone *, .inside-zone ::after, .inside-zone ::before {
     box-sizing: border-box; }
   .inside-zone h1 {
