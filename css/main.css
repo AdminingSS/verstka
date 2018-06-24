@@ -368,6 +368,8 @@
   border: none;
   color: #ffffff;
   font-size: 12px; }
+  .btn-profile-sm:hover {
+    color: #ffffff; }
 
 .btn-profile-lg {
   -webkit-border-radius: 500px;
@@ -381,6 +383,8 @@
   color: #ffffff;
   font-size: 15px;
   font-weight: 700; }
+  .btn-profile-lg:hover {
+    color: #ffffff; }
 
 .btn-bgc-grey {
   background-image: linear-gradient(to left, #627085, #b7bbc1);
