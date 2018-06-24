@@ -53,7 +53,7 @@
   font-size: 14px;
   font-weight: 300;
   color: #9aa9bd;
-  overflow-y: scroll; }
+  overflow-y: auto; }
   .inside-zone *, .inside-zone ::after, .inside-zone ::before {
     box-sizing: border-box; }
   .inside-zone h1 {

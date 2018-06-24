@@ -37,7 +37,7 @@
   font-size: $fontSizeSmall;
   font-weight: 300;
   color: $textPrimaryColor;
-  overflow-y: scroll;
+  overflow-y: auto;
 
   *, ::after, ::before {
     box-sizing: border-box;
