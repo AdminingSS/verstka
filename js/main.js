@@ -1,13 +1,13 @@
 $(document).ready(function () {
 
-    (function () {
+    // (function () {
 
-        const $content = $('.inside-zone__table');
-        const options = {
-            setHeight: 200
-        };
+    //     const $content = $('.inside-zone__table');
+    //     const options = {
+    //         setHeight: 200
+    //     };
 
-        $content.mCustomScrollbar(options);
+    //     $content.mCustomScrollbar(options);
 
-    })();
+    // })();
 });
