@@ -255,7 +255,7 @@
         background: linear-gradient(to left, #56a124, #a4cc2c); }
 
 .inside-zone__middle {
-  min-height: 350px; }
+  min-height: 400px; }
   .inside-zone__middle .btn-game-big {
     background-image: linear-gradient(to left, #986cd1, #627ad1);
     width: 236px;
